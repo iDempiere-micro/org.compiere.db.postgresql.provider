@@ -1,6 +1,7 @@
 #
 #   ORG COMPIERE DB POSTGRESQL PROVIDER
 #
+Bundle-Name: iDempiere PostgreSQL Provider
 Bundle-Activator: pg.org.adempiere.db.postgresql.PostgreSQLBundleActivator
 Import-Package: !com.mchange.v2.c3p0*, !org.jfree.io, !pg.org.adempiere.db.postgresql*, javax.naming*;resolution:=optional,*
 -includeresource: \
