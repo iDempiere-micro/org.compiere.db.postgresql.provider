@@ -1,1 +1,1 @@
-# org.compiere.db.postgresql.provider
+# iDempiere PostgreSQL Provider (org.compiere.db.postgresql.provider)
