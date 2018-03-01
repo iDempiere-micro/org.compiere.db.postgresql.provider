@@ -96,27 +96,9 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="PROVIDED">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="PROVIDED">
       <library name="Gradle: jcommon-1.0.24">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/jcommon-1.0.24.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="PROVIDED">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -127,7 +109,7 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../software.hsharp.db.postgresql.provider/bin" />
+          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -188,27 +170,9 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="RUNTIME">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="RUNTIME">
       <library name="Gradle: jcommon-1.0.24">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/jcommon-1.0.24.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="RUNTIME">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -219,7 +183,7 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../software.hsharp.db.postgresql.provider/bin" />
+          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -291,15 +255,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: jcommon-1.0.24">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/jcommon-1.0.24.jar!/" />
@@ -308,7 +263,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
+    <orderEntry type="library" scope="TEST" name="Gradle: c3p0-0.9.5.2" level="project" />
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
@@ -317,9 +273,53 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="TEST" name="Gradle: c3p0-0.9.5.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../software.hsharp.db.postgresql.provider/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: mchange-commons-java-0.2.15" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../software.hsharp.db.postgresql.provider/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../software.hsharp.db.postgresql.provider/bin" />

@@ -43,6 +43,8 @@ import java.util.Properties;
 import java.util.Random;
 import java.util.logging.Level;
 
+import org.osgi.service.component.annotations.Component;
+
 /**
  *  PostgreSQL Database Port
  *
@@ -54,6 +56,7 @@ import java.util.logging.Level;
  *                 set rw/ro properties for the connection accordingly.
  *  @author Ashley Ramdass (Posterita)
  */
+@Component
 public class DB_PostgreSQL extends PgDB implements AdempiereDatabase
 {
 

@@ -10,3 +10,4 @@ Export-Package: \
     pg.org.compiere.db*,\
     pg.org.adempiere.db.postgresql*,\
     org.jfree.io*
+-dsannotations-options: extender
