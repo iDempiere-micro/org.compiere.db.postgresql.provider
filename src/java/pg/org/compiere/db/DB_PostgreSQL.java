@@ -26,6 +26,7 @@ import org.idempiere.common.util.*;
 import org.idempiere.icommon.db.AdempiereDatabase;
 import org.idempiere.icommon.model.IPO;
 import org.jfree.io.IOUtils;
+import org.osgi.service.component.annotations.Component;
 import pg.org.adempiere.db.postgresql.PostgreSQLBundleActivator;
 import pg.org.compiere.dbPort.Convert_PostgreSQL;
 import software.hsharp.api.icommon.ICConnection;
@@ -42,8 +43,6 @@ import java.sql.*;
 import java.util.Properties;
 import java.util.Random;
 import java.util.logging.Level;
-
-import org.osgi.service.component.annotations.Component;
 
 /**
  *  PostgreSQL Database Port
@@ -757,7 +756,10 @@ public class DB_PostgreSQL extends PgDB implements AdempiereDatabase
 					minPoolSize,
 					maxPoolSize,
 					maxStatementsPerConnection,
-					unreturnedConnectionTimeout
+					unreturnedConnectionTimeout,
+					1,
+                    0,
+                    1
             );
             setup( params );
 			connect( connection );
