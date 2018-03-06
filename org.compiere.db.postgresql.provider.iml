@@ -65,6 +65,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.typesafe:config:1.3.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.log4j:com.springsource.org.apache.log4j:1.2.15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.annotation:javax.annotation-api:1.2" level="project" />
@@ -73,9 +74,12 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.30" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
@@ -96,6 +100,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
       <library name="Gradle: jcommon-1.0.24">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/jcommon-1.0.24.jar!/" />
@@ -109,7 +122,7 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
+          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -139,6 +152,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.typesafe:config:1.3.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.log4j:com.springsource.org.apache.log4j:1.2.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.annotation:javax.annotation-api:1.2" level="project" />
@@ -147,9 +161,12 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.30" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
@@ -170,6 +187,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
       <library name="Gradle: jcommon-1.0.24">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/jcommon-1.0.24.jar!/" />
@@ -183,7 +209,7 @@
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
+          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -220,6 +246,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.typesafe:config:1.3.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.log4j:com.springsource.org.apache.log4j:1.2.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.30" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
@@ -230,12 +257,22 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.30" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../software.hsharp.db.postgresql.provider/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -255,38 +292,9 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: jcommon-1.0.24">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/jcommon-1.0.24.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" scope="TEST" name="Gradle: c3p0-0.9.5.2" level="project" />
-    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../software.hsharp.db.postgresql.provider/bin" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" scope="TEST" name="Gradle: mchange-commons-java-0.2.15" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
+          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -302,15 +310,17 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" scope="TEST">
-      <library>
+      <library name="Gradle: jcommon-1.0.24">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../org.idempiere.common/bin" />
+          <root url="jar://$MODULE_DIR$/jcommon-1.0.24.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="library" scope="TEST" name="Gradle: c3p0-0.9.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: mchange-commons-java-0.2.15" level="project" />
+    <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../org.adempiere.install/bin" />
