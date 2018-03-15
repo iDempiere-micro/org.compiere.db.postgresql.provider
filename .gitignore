@@ -113,3 +113,5 @@ generated
 !c3p0-0.9.5.2.jar
 !jcommon-1.0.24.jar
 !mchange-commons-java-0.2.15.jar
+
+**/bin/**
