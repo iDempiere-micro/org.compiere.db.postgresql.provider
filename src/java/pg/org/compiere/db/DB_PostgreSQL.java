@@ -733,7 +733,7 @@ public class DB_PostgreSQL extends PgDB implements AdempiereDatabase
         {
             System.setProperty("com.mchange.v2.log.MLog", mlogClass);
             //System.setProperty("com.mchange.v2.log.FallbackMLog.DEFAULT_CUTOFF_LEVEL", "ALL");
-            DataSource cpds = getDataSource();
+            DataSource cpds = getDataSource(connection);
 
 			int maxPoolSize = getIntProperty(poolProperties, "MaxPoolSize", 400);
 			int initialPoolSize = getIntProperty(poolProperties, "InitialPoolSize", 10);
