@@ -1,4 +1,6 @@
 dependencies {
+    compile files('./c3p0-0.9.5.2.jar')
+
     compile project(':org.idempiere.icommon')
     compile files('../org.idempiere.icommon/bin')    
 
