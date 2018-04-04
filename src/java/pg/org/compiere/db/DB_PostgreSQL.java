@@ -101,7 +101,7 @@ public class DB_PostgreSQL extends PooledPgDB implements AdempiereDatabase
 
     public static final String NATIVE_MARKER = "NATIVE_"+Database.DB_POSTGRESQL+"_KEYWORK";
 
-    private CCache<String, String> convertCache = new CCache<String, String>(null, "DB_PostgreSQL_Convert_Cache", 1000, 0, true);
+    private CCache<String, String> convertCache = new CCache<String, String>(null, "DB_PostgreSQL_Convert_Cache", 1000, 0, false);
 
     private Random rand = new Random();
 
@@ -671,20 +671,22 @@ public class DB_PostgreSQL extends PooledPgDB implements AdempiereDatabase
 		if (inputStream == null)
 		{
 			propertyFile = null;
-			url = PostgreSQLBundleActivator.bundleContext.getBundle().getEntry("server.pool.default.properties");
-	    	
+
 	    	try {
+				url = PostgreSQLBundleActivator.bundleContext.getBundle().getEntry("server.pool.default.properties");
 				inputStream = url.openStream();
-			} catch (IOException e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			}						
 		}
 		
 		Properties poolProperties = new Properties();
 		try {
-			poolProperties.load(inputStream);
-			inputStream.close();
-			inputStream = null;
+			if (inputStream != null) {
+				poolProperties.load(inputStream);
+				inputStream.close();
+				inputStream = null;
+			}
 		} catch (IOException e) {
 			throw new DBException(e);
 		}
