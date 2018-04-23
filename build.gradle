@@ -17,4 +17,8 @@ dependencies {
 
     compile project(':software.hsharp.db.postgresql.provider')
     compile files('../software.hsharp.db.postgresql.provider/bin')
+
+    testCompile project(':org.compiere.db.postgresql.provider')
+    testCompile files('../org.compiere.db.postgresql.provider/bin')
+
 }
