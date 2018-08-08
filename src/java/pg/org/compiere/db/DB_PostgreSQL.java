@@ -18,7 +18,6 @@
  *****************************************************************************/
 package pg.org.compiere.db;
 
-import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.idempiere.common.db.CConnection;
 import org.idempiere.common.db.Database;
 import org.idempiere.common.dbPort.Convert;
@@ -736,7 +735,6 @@ public class DB_PostgreSQL extends PooledPgDB implements AdempiereDatabase
         {
             System.setProperty("com.mchange.v2.log.MLog", mlogClass);
             //System.setProperty("com.mchange.v2.log.FallbackMLog.DEFAULT_CUTOFF_LEVEL", "ALL");
-            DataSource cpds = super.getDataSource();
 
 			int maxPoolSize = getIntProperty(poolProperties, "MaxPoolSize", 400);
 			int initialPoolSize = getIntProperty(poolProperties, "InitialPoolSize", 10);
@@ -767,7 +765,7 @@ public class DB_PostgreSQL extends PooledPgDB implements AdempiereDatabase
             setup( params );
 			connect( connection );
 
-            m_ds = cpds;
+            m_ds = super.getDs();;
             m_connectionURL = getJdbcUrl();
         }
         catch (Exception ex)
